@@ -12,9 +12,7 @@ int main()
 		printf("Maybe this works: %d\n", *points);
 	}
 
-	while ((ch = fgets(points) != EOF))
-	{
-
+	fclose(points);
 
 	return 0;
 }
