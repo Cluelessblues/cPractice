@@ -18,7 +18,10 @@ int main (int argc, char *argv[])
 	scanf("%d", &voters);
 	getchar();
 	
-	
+	if (voters > 9)
+	{
+		return 1;
+	}	
 
 	for (int j = 0; j < voters; j++)
 	{
